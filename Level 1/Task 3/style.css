@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url("./assets/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 3400px 2000px;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    padding-left: 0 4rem 0 4rem;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: salmon;
+    padding: 2rem 0 1rem 0;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    font-size: 4rem;
+    gap: 2rem;
+    margin-left: 100rem;
+    color: white;
+}
