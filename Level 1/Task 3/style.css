@@ -45,9 +45,12 @@ li:hover{
     padding-top: 10rem;
 }
 
+
 button {
-  background-color: #4CAF50;
+  /* background-color: #4CAF50; */
+  background-color: #4B0082;
   gap: 1rem;
+  border-radius: 1rem;
   border: none;
   color: white;
   padding: 4rem 4rem 4rem 4rem;
@@ -63,32 +66,6 @@ img{
     width: 90px;
 }
 
-.output{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    padding: 2rem 2rem 2rem 2rem;
-    margin-bottom: 1rem;
-}
-
-.output > h1 {
-    font-size: 140px;
-    background-color: salmon;
-}
-
-.input{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    padding: 2rem 2rem 2rem 2rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-
-.input > h1 {
-    font-size: 140px;
-    background-color: salmon;
-}
 
 .h1-calculate{
     display: flex;
@@ -110,7 +87,9 @@ img{
 }
 
 button:hover{
-    background-color: salmon;
+    /* background-color: salmon; */
+    background-color: #7a73a8;
+    color: black;
 }
 
 .container{
@@ -118,6 +97,7 @@ button:hover{
     justify-content: center;
     flex-direction: row;
     gap: 2rem;
+    background-color: beige;
 }
 
 .contact-div{
@@ -125,6 +105,7 @@ button:hover{
     justify-content: center;
     flex-direction: row;
     padding: 2rem 0 2rem 0;
+    background-color: white;
 }
 
 .contact-div > h1{
@@ -162,4 +143,31 @@ button:hover{
     font-size: 40px;
     display: flex;
     justify-content: center;
+}
+
+.copy{
+    width: 100%;
+    background-color: black;
+}
+
+.input-div{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.input{
+    width: 96%;
+    height: 6rem;
+    font-size: 6rem;
+    background-color: #4B0082;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.zero, .c{
+    width: 48%;
 }
