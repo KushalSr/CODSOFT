@@ -3,21 +3,18 @@
     padding: 0;
 }
 
-.background{
-    background-image: url("./assets/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: 3400px 2000px;
-}
-
 h1{
     color: white;
     font-size: 100px;
-    padding-left: 0 4rem 0 4rem;
+    padding: 0 4rem 0 4rem;
 }
 
 li{
     list-style-type: none;
     cursor: pointer;
+}
+li:hover{
+    color: black;
 }
 
 .navbar{
@@ -26,6 +23,8 @@ li{
     align-items: center;
     background-color: salmon;
     padding: 2rem 0 1rem 0;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-links{
@@ -37,4 +36,130 @@ li{
     gap: 2rem;
     margin-left: 100rem;
     color: white;
+}
+
+.calculator{
+    display: grid;
+    justify-content: center;
+    background-color: rgb(241, 238, 232);
+    padding-top: 10rem;
+}
+
+button {
+  background-color: #4CAF50;
+  gap: 1rem;
+  border: none;
+  color: white;
+  padding: 4rem 4rem 4rem 4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100px;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: 300px;
+}
+
+img{
+    width: 90px;
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.output > h1 {
+    font-size: 140px;
+    background-color: salmon;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.input > h1 {
+    font-size: 140px;
+    background-color: salmon;
+}
+
+.h1-calculate{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 238, 232);
+    padding: 14rem 0 4rem 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+.h1-calculate > h1{
+    font-size: 200px;
+    color: rgb(240, 72, 54);
+}
+
+.h1-calculate > h2{
+    font-size: 50px;
+    color: rgb(205, 82, 68);
+}
+
+button:hover{
+    background-color: salmon;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.contact-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2rem 0 2rem 0;
+}
+
+.contact-div > h1{
+    font-size: 100px;
+    color: salmon;
+}
+
+.contact-info-container{
+
+    display: flex;
+    padding: 2rem 0 2rem 0;
+}
+.contact-info-container > img:hover{
+    cursor: pointer;
+}
+
+.contact-info-container > img {
+    height: 150px;
+    width: 150px;
+}
+
+.contact-info-container-email > img {
+    height: 200px;
+    width: 200px;
+}
+.contact-info-container-h2{
+    font-size: 40px;
+    padding-top: 4rem;
+    color: salmon;
+}
+
+.copyright{
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
 }
